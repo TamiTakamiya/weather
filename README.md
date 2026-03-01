@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides weather information using the National Weather Service (NWS) API.
 
+This project is based on the code from [Building an MCP Server](https://modelcontextprotocol.io/docs/develop/build-server).
+
 ## Features
 
 - **Weather Alerts**: Get active weather alerts for any US state
@@ -11,7 +13,7 @@ A Model Context Protocol (MCP) server that provides weather information using th
 
 ## Installation
 
-This project uses Python 3.13+ and UV for dependency management.
+This project uses Python 3.12+ and UV for dependency management.
 
 ```bash
 # Install dependencies
@@ -59,7 +61,7 @@ The forecast returns the next 5 periods with temperature, wind information, and 
 
 ## Requirements
 
-- Python >= 3.13
+- Python >= 3.12
 - httpx >= 0.28.1
 - mcp[cli] >= 1.26.0
 
